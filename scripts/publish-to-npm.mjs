@@ -3,6 +3,7 @@ import yargs from 'yargs/yargs';
 import { hideBin } from 'yargs/helpers';
 import fs from 'fs-extra';
 import path from 'path';
+import { glob } from 'glob';
 
 const rootDir = process.cwd();
 

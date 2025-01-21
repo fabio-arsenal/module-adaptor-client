@@ -1,11 +1,10 @@
 {
   "name": "@fabio-arsenal/module-adaptor-client",
-  "version": "1.0.15",
+  "version": "1.0.1",
   "description": "Adapter for ES6 modules",
   "main": "dist/bundle.js",
   "scripts": {
     "build": "webpack --config webpack.config.js",
-    "build:dev": "webpack --config webpack.config.dev.js",
     "clean": "lerna clean --yes",
     "format": "prettier --write 'packages/*/*.+(js|jsx|json|yml|yaml|css|less|scss|ts|tsx|md|mdx)' 'packages/*/!(node_modules)/**/*.js'",
     "build-docs": "node ./scripts/build-docs.mjs",
@@ -33,27 +32,24 @@
     "fs-extra": "^11.2.0",
     "glob": "^11.0.0",
     "inquirer": "^12.3.0",
+    "lerna": "^8.1.9",
     "release": "^6.3.1",
     "semver": "^7.6.3",
     "webpack": "^5.97.1",
     "webpack-cli": "^6.0.1",
     "yargs": "^17.7.2"
   },
-  "author": "fabio <fabio@arsenalbio.com>",
-  "license": "MIT",
   "private": false,
   "dependencies": {
     "@jspreadsheet-ce/react": "^5.0.0-beta.3"
   },
+  "author": "fabio <fabio@arsenalbio.com>",
+  "license": "MIT",
   "engines": {
     "node": "20.5.0"
   },
   "resolutions": {
-    "cliui/string-width": "4.2.0",
-    "execa": "9.5.2",
-    "string-width": "4.2.0",
-    "string-width/strip-ansi": "6.0.0",
-    "strip-ansi": "6.0.0"
+    "jackspeak": "2.1.1"
   },
   "files": [
     "dist",
