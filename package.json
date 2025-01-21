@@ -1,6 +1,6 @@
 {
   "name": "@fabio-arsenal/module-adaptor-client",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Adapter for ES6 modules",
   "main": "dist/bundle.js",
   "scripts": {
