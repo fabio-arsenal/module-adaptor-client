@@ -1,6 +1,6 @@
 {
   "name": "@fabio-arsenal/module-adaptor-client",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Adapter for ES6 modules",
   "main": "dist/bundle.js",
   "scripts": {
@@ -26,6 +26,7 @@
     "@babel/plugin-syntax-dynamic-import": "^7.8.3",
     "@babel/plugin-transform-modules-commonjs": "^7.26.3",
     "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.26.3",
     "@types/node": ">=18",
     "babel-loader": "^9.2.1",
     "execa": "^9.5.2",
@@ -41,7 +42,8 @@
   },
   "private": false,
   "dependencies": {
-    "@jspreadsheet-ce/react": "^5.0.0-beta.3"
+    "@jspreadsheet-ce/react": "^5.0.0-beta.3",
+    "react": "17.0.2"
   },
   "author": "fabio <fabio@arsenalbio.com>",
   "license": "MIT",

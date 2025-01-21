@@ -1,16 +1,10 @@
-import JSReact from '@jspreadsheet-ce/react';
+import React from 'react';
+import { Worksheet as WS, Spreadsheet as SP } from '@jspreadsheet-ce/react';
 
-export const  Spreadsheet = () => JSReact.Spreadsheet;
-export const  Worksheet = () => JSReact.Worksheet;
-export const JSpreadsheet = {
-    Spreadsheet: JSReact.Spreadsheet,
-    Worksheet: JSReact.Worksheet
+export const Worksheet = (props) => {
+    return <WS {...props} />;
 }
 
-const JSpreadsheetReact = {
-    Spreadsheet: JSReact.Spreadsheet,
-    Worksheet: JSReact.Worksheet,
-    JSpreadsheet,
+export const Spreadsheet = (props) => {
+    return <SP {...props} />;
 }
-
-export default JSpreadsheetReact;
